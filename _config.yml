@@ -5,11 +5,11 @@
 # Site
 title: Hexo       #博客名
 subtitle:                    #副标题
-description: 无他             #站点描述(签名)用于搜索，没有直观表现
+description: 有足够的忧患意识，却没有足够的勇气改变现状，这很矛盾             #站点描述(签名)用于搜索，没有直观表现
 author: XHu_AIe          #作者
 language: zh-Hans            #语言
 timezone:                       #时区，此处不填写，hexo会以你目前电脑的时区为默认值
-#avatar:  /images/avatar.jpg     #头像设置
+avatar:  /images/avatar.jpg     #头像设置
 
 # URL      暂不配置，使用默认值
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

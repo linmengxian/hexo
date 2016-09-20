@@ -64,7 +64,7 @@ var  throttle= function(action, delay){//每delay时间执行action一次
 oncontextmenu="return false;"
 document.oncontextmenu=function(a){return !1}
 ```
-插播一条，jQuery事件显示按了哪个键：event.which
+事件显示按了哪个键：event.which
 
 ##### 7、DOM文档加载顺序
 ```
@@ -107,9 +107,11 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#dbdbdb,direction=0,streng
 原因大概就是IE9本身已经支持了box-shadow，而再加上filter的属性就出现了这种情况，解决的办法也很简单，只让IE7 8识别filter滤镜就好了。但对比上面的hack，发现并没有只有让IE8及其以下识别的写法，我的解决方法是这样的：
 ```
 <!--[if lte IE 8]>
+<style>
 .div{
 filter:progid:DXImageTransform.Microsoft.Shadow(color=#dbdbdb,direction=0,strength=5) progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=90,strength=5) progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=180,strength=4) progid:DXImageTransform.Microsoft.Shadow(color=#d2d2d2,direction=270,strength=3); 
 }
+</style>
 <![endif]-->
 ```
 ##### 10、js各种数据类型比较

@@ -11,20 +11,13 @@ tags: [博客，文章] #文章标签，多于一项时用这种格式，只有�
 
 ### 初衷
 
-1. Bird
-2. MacHale
-3. Parish
+&#160; &#160; &#160; &#160;
 
 -------------   
 
 
 ### 期望
 
-这里是正文，用markdown写，你可以选择写一段显示在首页的简介后，加上
+&#160; &#160; &#160; &#160;
 <!--more-->#在<!--more-->之前的内容会显示在首页，之后的内容会被隐藏，当游客点击Read more才能看到。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
-*em斜体*  `<em>em斜体<em/>`
-**strong加粗**
-
-![图片(/path/to/img.jpg "Optional title")
